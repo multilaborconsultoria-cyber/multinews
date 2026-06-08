@@ -23,7 +23,7 @@ export default function Footer() {
         </div>
         <div>
           <h4 className="text-white font-semibold mb-3">Contato</h4>
-          <p className="text-sm text-gray-400">contato@multilabor.biz</p>
+          <p className="text-sm text-gray-400">am.newsrh@gmail.com</p>
           <p className="text-sm text-gray-400 mt-1">multilabor.biz</p>
         </div>
       </div>
