@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 
 import Link from 'next/link'
 import { useState } from 'react'
@@ -12,7 +12,7 @@ export default function Header() {
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center gap-2">
-            <span className="text-2xl font-black tracking-tight">AM<span className="text-yellow-300">.NEWS</span></span>
+            <span className="text-2xl font-black tracking-tight">AM<span className="text-yellow-300">.NEWSRH</span></span>
           </Link>
           <nav className="hidden md:flex items-center gap-1">
             {categorias.map((cat) => (

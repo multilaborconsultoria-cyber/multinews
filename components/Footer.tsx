@@ -1,4 +1,4 @@
-import Link from 'next/link'
+﻿import Link from 'next/link'
 import { categorias } from '@/lib/constants'
 
 export default function Footer() {
@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="bg-gray-900 text-gray-300 mt-12">
       <div className="max-w-6xl mx-auto px-4 py-10 grid grid-cols-1 md:grid-cols-3 gap-8">
         <div>
-          <h3 className="text-white text-xl font-black mb-2">AM<span className="text-yellow-300">.NEWS</span></h3>
+          <h3 className="text-white text-xl font-black mb-2">AM<span className="text-yellow-300">.NEWSRH</span></h3>
           <p className="text-sm text-gray-400">Notícias gerais, regionais, trabalhistas e políticas com credibilidade e atualidade.</p>
         </div>
         <div>
@@ -28,7 +28,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="border-t border-gray-800 py-4 text-center text-xs text-gray-500">
-        © {new Date().getFullYear()} AM.NEWS — Todos os direitos reservados
+        © {new Date().getFullYear()} AM.NEWSRH — Todos os direitos reservados
       </div>
     </footer>
   )

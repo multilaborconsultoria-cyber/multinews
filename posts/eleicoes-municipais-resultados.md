@@ -1,9 +1,9 @@
----
+﻿---
 title: "Eleições municipais: veja os resultados nas principais cidades"
 date: "2026-06-07"
 categoria: "Político"
 resumo: "Apuração encerrada nas capitais mostra virada histórica em São Paulo e surpresa em Belo Horizonte. Confira o placar completo."
-autor: "Redação MultiNews"
+autor: "Redação AM.NEWSRH"
 ---
 
 A apuração dos votos nas eleições municipais foi concluída e trouxe resultados surpreendentes em diversas capitais brasileiras.

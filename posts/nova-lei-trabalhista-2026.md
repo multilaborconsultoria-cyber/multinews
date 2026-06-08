@@ -1,9 +1,9 @@
----
+﻿---
 title: "Nova lei trabalhista entra em vigor e muda férias e horas extras"
 date: "2026-06-08"
 categoria: "Trabalhista"
 resumo: "Mudanças na CLT impactam trabalhadores de todo o Brasil a partir deste mês, com novas regras sobre banco de horas e acúmulo de férias."
-autor: "Redação MultiNews"
+autor: "Redação AM.NEWSRH"
 ---
 
 A nova legislação trabalhista sancionada pelo governo federal entra em vigor neste mês e traz mudanças significativas para trabalhadores e empregadores em todo o Brasil.

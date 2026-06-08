@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
 import Header from '@/components/Header'
@@ -7,12 +7,12 @@ import Footer from '@/components/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'AM.NEWS — Notícias Gerais, Regionais, Trabalhistas e Políticas',
+  title: 'AM.NEWSRH — Notícias Gerais, Regionais, Trabalhistas e Políticas',
   description: 'Portal de notícias cobrindo temas gerais, regionais, trabalhistas e políticos com credibilidade.',
   openGraph: {
-    title: 'AM.NEWS',
+    title: 'AM.NEWSRH',
     description: 'Notícias gerais, regionais, trabalhistas e políticas.',
-    siteName: 'AM.NEWS',
+    siteName: 'AM.NEWSRH',
   },
 }
 

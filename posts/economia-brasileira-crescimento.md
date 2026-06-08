@@ -1,9 +1,9 @@
----
+﻿---
 title: "PIB brasileiro cresce 2,8% no primeiro trimestre de 2026"
 date: "2026-06-05"
 categoria: "Geral"
 resumo: "Dados divulgados pelo IBGE mostram crescimento acima das expectativas, puxado pelo agronegócio e pelo setor de serviços."
-autor: "Redação MultiNews"
+autor: "Redação AM.NEWSRH"
 ---
 
 O Instituto Brasileiro de Geografia e Estatística (IBGE) divulgou nesta semana os dados do Produto Interno Bruto (PIB) referentes ao primeiro trimestre de 2026, mostrando crescimento de 2,8% em relação ao mesmo período do ano anterior.
