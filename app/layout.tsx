@@ -7,12 +7,12 @@ import Footer from '@/components/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'AM.NEWSRH — Notícias Gerais, Regionais, Trabalhistas e Políticas',
-  description: 'Portal de notícias cobrindo temas gerais, regionais, trabalhistas e políticos com credibilidade.',
+  title: 'Am.newsrh — Notícias que informam',
+  description: 'Notícias que informam. Cobertura geral, regional, trabalhista e política da região amazônica.',
   openGraph: {
-    title: 'AM.NEWSRH',
-    description: 'Notícias gerais, regionais, trabalhistas e políticas.',
-    siteName: 'AM.NEWSRH',
+    title: 'Am.newsrh',
+    description: 'Notícias que informam. Cobertura da região amazônica.',
+    siteName: 'Am.newsrh',
   },
 }
 
