@@ -7,12 +7,12 @@ import Footer from '@/components/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'MultiNews — Notícias Gerais, Regionais, Trabalhistas e Políticas',
+  title: 'AM.NEWS — Notícias Gerais, Regionais, Trabalhistas e Políticas',
   description: 'Portal de notícias cobrindo temas gerais, regionais, trabalhistas e políticos com credibilidade.',
   openGraph: {
-    title: 'MultiNews',
+    title: 'AM.NEWS',
     description: 'Notícias gerais, regionais, trabalhistas e políticas.',
-    siteName: 'MultiNews',
+    siteName: 'AM.NEWS',
   },
 }
 
