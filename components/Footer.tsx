@@ -11,8 +11,8 @@ export default function Footer() {
             <Image
               src="/logo.png"
               alt="Am.newsrh"
-              width={120}
-              height={48}
+              width={80}
+              height={80}
               className="object-contain"
             />
           </div>

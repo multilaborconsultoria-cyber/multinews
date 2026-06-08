@@ -13,8 +13,9 @@ const corCategoria: Record<string, string> = {
   político: 'bg-purple-600',
 }
 
-export default async function PostPage({ params }: { params: { slug: string } }) {
-  const post = await getPostBySlug(params.slug)
+export default async function PostPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params
+  const post = await getPostBySlug(slug)
   if (!post) notFound()
 
   const cor = corCategoria[post.categoria.toLowerCase()] ?? 'bg-gray-600'
@@ -35,7 +36,7 @@ export default async function PostPage({ params }: { params: { slug: string } })
       </div>
 
       <div
-        className="prose prose-lg max-w-none prose-headings:text-gray-900 prose-a:text-red-700"
+        className="prose prose-lg max-w-none prose-headings:text-gray-900 prose-a:text-[#1e2d5a]"
         dangerouslySetInnerHTML={{ __html: post.content ?? '' }}
       />
     </article>

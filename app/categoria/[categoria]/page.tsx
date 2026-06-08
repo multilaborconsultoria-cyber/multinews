@@ -6,8 +6,9 @@ export function generateStaticParams() {
   return categorias.map((cat) => ({ categoria: cat.toLowerCase() }))
 }
 
-export default function CategoriaPage({ params }: { params: { categoria: string } }) {
-  const nome = categorias.find((c) => c.toLowerCase() === params.categoria)
+export default async function CategoriaPage({ params }: { params: Promise<{ categoria: string }> }) {
+  const { categoria } = await params
+  const nome = categorias.find((c) => c.toLowerCase() === categoria)
   if (!nome) notFound()
 
   const posts = getPostsByCategoria(nome)
@@ -15,7 +16,7 @@ export default function CategoriaPage({ params }: { params: { categoria: string 
   return (
     <div>
       <div className="mb-6">
-        <h1 className="text-2xl font-bold text-gray-900 border-l-4 border-red-700 pl-3">{nome}</h1>
+        <h1 className="text-2xl font-bold text-gray-900 border-l-4 border-[#1e2d5a] pl-3">{nome}</h1>
         <p className="text-gray-500 text-sm mt-1">{posts.length} notícia{posts.length !== 1 ? 's' : ''} encontrada{posts.length !== 1 ? 's' : ''}</p>
       </div>
 

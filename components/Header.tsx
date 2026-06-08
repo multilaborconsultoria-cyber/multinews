@@ -22,8 +22,8 @@ export default function Header() {
             <Image
               src="/logo.png"
               alt="Am.newsrh — Notícias que informam"
-              width={160}
-              height={64}
+              width={72}
+              height={72}
               className="object-contain"
               priority
             />
