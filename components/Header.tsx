@@ -53,7 +53,7 @@ export default function Header() {
       </div>
       <div className="bg-gray-900 text-xs text-gray-400 py-1">
         <div className="max-w-6xl mx-auto px-4 flex justify-between">
-          <span>multilabor.biz</span>
+          <span>am.newsrh@gmail.com</span>
           <span>{new Date().toLocaleDateString('pt-BR', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}</span>
         </div>
       </div>

@@ -24,7 +24,6 @@ export default function Footer() {
         <div>
           <h4 className="text-white font-semibold mb-3">Contato</h4>
           <p className="text-sm text-gray-400">am.newsrh@gmail.com</p>
-          <p className="text-sm text-gray-400 mt-1">multilabor.biz</p>
         </div>
       </div>
       <div className="border-t border-gray-800 py-4 text-center text-xs text-gray-500">
