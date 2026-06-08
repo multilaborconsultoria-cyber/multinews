@@ -15,13 +15,13 @@ export default function NewsCard({ post, destaque = false }: { post: Post; desta
     return (
       <Link href={`/post/${post.slug}`} className="block group">
         <article className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow border border-gray-100">
-          <div className="bg-gradient-to-br from-red-700 to-red-900 h-52 flex items-end p-5">
+          <div className="bg-gradient-to-br from-[#1e2d5a] to-[#2563eb] h-52 flex items-end p-5">
             <span className={`${cor} text-white text-xs font-bold px-2 py-1 rounded uppercase`}>
               {post.categoria}
             </span>
           </div>
           <div className="p-5">
-            <h2 className="text-xl font-bold text-gray-900 group-hover:text-red-700 transition-colors line-clamp-2 mb-2">
+            <h2 className="text-xl font-bold text-gray-900 group-hover:text-[#2563eb] transition-colors line-clamp-2 mb-2">
               {post.title}
             </h2>
             <p className="text-gray-500 text-sm line-clamp-3">{post.resumo}</p>
@@ -42,7 +42,7 @@ export default function NewsCard({ post, destaque = false }: { post: Post; desta
           <span className={`${cor} text-white text-xs font-bold px-2 py-0.5 rounded uppercase`}>
             {post.categoria}
           </span>
-          <h3 className="mt-1 font-semibold text-gray-900 group-hover:text-red-700 transition-colors line-clamp-2 text-sm">
+          <h3 className="mt-1 font-semibold text-gray-900 group-hover:text-[#2563eb] transition-colors line-clamp-2 text-sm">
             {post.title}
           </h3>
           <p className="text-gray-500 text-xs line-clamp-2 mt-1">{post.resumo}</p>

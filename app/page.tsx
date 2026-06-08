@@ -13,7 +13,7 @@ export default function Home() {
       {destaque && (
         <section className="mb-10">
           <div className="flex items-center justify-between mb-4">
-            <h2 className="text-lg font-bold text-gray-800 border-l-4 border-red-700 pl-3">Em Destaque</h2>
+            <h2 className="text-lg font-bold text-gray-800 border-l-4 border-[#1e2d5a] pl-3">Em Destaque</h2>
           </div>
           <NewsCard post={destaque} destaque />
         </section>
@@ -22,7 +22,7 @@ export default function Home() {
       {/* Mais recentes */}
       {recentes.length > 0 && (
         <section className="mb-10">
-          <h2 className="text-lg font-bold text-gray-800 border-l-4 border-red-700 pl-3 mb-4">Últimas Notícias</h2>
+          <h2 className="text-lg font-bold text-gray-800 border-l-4 border-[#1e2d5a] pl-3 mb-4">Últimas Notícias</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {recentes.map((post) => (
               <NewsCard key={post.slug} post={post} />
@@ -33,7 +33,7 @@ export default function Home() {
 
       {/* Por categoria */}
       <section>
-        <h2 className="text-lg font-bold text-gray-800 border-l-4 border-red-700 pl-3 mb-4">Por Categoria</h2>
+        <h2 className="text-lg font-bold text-gray-800 border-l-4 border-[#1e2d5a] pl-3 mb-4">Por Categoria</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
           {categorias.map((cat) => {
             const catPosts = posts.filter((p) => p.categoria.toLowerCase() === cat.toLowerCase())
@@ -43,7 +43,7 @@ export default function Home() {
                 <div className="text-2xl mb-1">
                   {cat === 'Geral' ? '🌐' : cat === 'Regional' ? '📍' : cat === 'Trabalhista' ? '⚖️' : '🏛️'}
                 </div>
-                <div className="font-semibold text-gray-800 group-hover:text-red-700 transition-colors">{cat}</div>
+                <div className="font-semibold text-gray-800 group-hover:text-[#2563eb] transition-colors">{cat}</div>
                 <div className="text-xs text-gray-400 mt-1">{catPosts.length} notícia{catPosts.length !== 1 ? 's' : ''}</div>
               </Link>
             )
