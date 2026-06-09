@@ -1,0 +1,34 @@
+name: Publicar no Instagram
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'posts/**.md'
+
+jobs:
+  post-instagram:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Detectar novos posts
+        id: novos
+        run: |
+          FILES=$(git diff --name-only HEAD~1 HEAD -- 'posts/*.md' | tr '\n' ' ')
+          echo "files=$FILES" >> $GITHUB_OUTPUT
+          echo "Novos posts: $FILES"
+
+      - name: Publicar cada post no Instagram
+        if: steps.novos.outputs.files != ''
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: |
+          for FILE in ${{ steps.novos.outputs.files }}; do
+            echo "📸 Publicando: $FILE"
+            POST_FILE="$FILE" node scripts/post-to-instagram.js
+          done
