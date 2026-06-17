@@ -6,6 +6,8 @@ resumo: "Mutirão do programa Governo Presente em Iranduba reuniu políticos cot
 autor: "Redação AM.NEWSRH"
 ---
 
+![Evento do Governo Presente em Iranduba reúne governador, deputados e moradores](/foto-iranduba.jpeg)
+
 Foi assistência pra quem trabalha na roça ou um esquenta de campanha disfarçado de ação social? Essa é a pergunta que tá pegando fogo no Amazonas depois que o Governo do Estado fez um mutirão do programa "Governo Presente" em Iranduba, na sexta-feira (12), e colocou nas redes oficiais a cara de gente que está de olho numa vaga nas eleições deste ano.
 
 O evento rolou na Praça dos Três Poderes e juntou vários órgãos do Estado pra distribuir de graça um monte de equipamento pra quem vive da terra: mangueira de irrigação, motor pra arar a terra, forno gigante de padaria, motor pra tirar água, motobomba e até pulverizador pra plantação. No total, segundo o próprio governo divulgou, a conta fechou em torno de R$ 125 mil só naquele dia.
